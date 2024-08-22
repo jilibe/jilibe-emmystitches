@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Emmystiches</title>
+    <link rel="stylesheet" href="./contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Cinzel:wght@400..900&family=Italianno&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <section class="header-section">
+      <div class="header-info">
+        <div class="header-contact-details">
+          <div class="header-contact-details-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="23 7 23 1 17 1" />
+              <line x1="16" y1="8" x2="23" y2="1" />
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+              />
+            </svg>
+          </div>
+          <p class="header-contact-details-text">
+            <a href="tel:+234 704 968 2700">+234 704 968 2700</a>
+          </p>
+
+          <div class="header-contact-details-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+              />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </div>
+
+          <p class="header-contact-details-text">
+            <a href="mailto:kellybliss48@gmail.com">kellybliss48@gmail.com</a>
+          </p>
+        </div>
+
+        <div class="logo">
+          <a href="./index.html"
+            ><img src="./asset/logo-2.jpeg" alt="Logo" class="logo-img"
+          /></a>
+        </div>
+
+        <div class="name-plate">
+          <p>EMMYSTITCHES</p>
+        </div>
+
+        <a class="header-btn" href="./contact.html"
+          ><span class="btn-hover-fill"></span>MAKE AN APPOINTMENT</a
+        >
+      </div>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+
+      <nav class="menu-phone">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li>
+            <a href="./services.html">Services</a>
+          </li>
+          <li>
+            <a href="./gallery.html">Gallery</a>
+          </li>
+          <li>
+            <a href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-list-item"><a href="./index.html">Home</a></li>
+          <li class="header-nav-list-item"><a href="./about.html">About</a></li>
+          <li class="header-nav-list-item">
+            <a href="./services.html">Services</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a href="./gallery.html">Gallery</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="hero-section">
+        <h1 class="hero-section-header">contact</h1>
+        <p class="hero-section-text"><a href="./index.html">home </a> | <span>contact</span></p>
+      </div>
+    </section>
+    <!-- end of header -->
+
+    <!-- contact page -->
+    <section class="contact-page">
+      <div class="contact-page-container">
+        <form action="" method="get">
+          <h2>Send us a message</h2>
+          <div class="starter">
+            <div class="starter-1">
+              <label for="fullname">Full Name:</label>
+              <input type="text" id="fullname" name="fullname" />
+            </div>
+
+            <div class="starter-2">
+              <label for="email">Your Email:</label>
+              <input type="email" id="email" name="email" />
+            </div>
+          </div>
+          <label for="text">Subject:</label>
+          <input type="text" id="text" name="subject" />
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" cols="50"></textarea>
+          <label for="file">Upload file:</label>
+          <input type="file" name="file" id="file" />
+          <button type="submit" class="contact-btn">send message</button>
+        </form>
+        <div class="contact-page-info">
+          <div class="contact-page-info-container">
+            <h2>get in touch</h2>
+            <p>
+              Have a question, a project in mind, or simply want to say hello?
+              We'd love to hear from you! At Emmystitches, we're committed to
+              providing exceptional service and personalized attention to every
+              inquiry. Whether you're interested in our tailoring services, have
+              a special request, or want to collaborate on a project, our team
+              is here to assist you every step of the way. Feel free to reach
+              out to us via email, phone, or by filling out the contact form. We
+              look forward to connecting with you!
+            </p>
+            <h3>office address:</h3>
+            <address>172, abuloma road, port harcourt, rivers, nigeria</address>
+            <div class="contact-special">
+              <h3>contact number:</h3>
+              <a href="tel:+234 704 968 2700">+234 704 968 2700</a>
+            </div>
+
+            <div class="contact-special">
+              <h3>email address:</h3>
+              <a href="mailto:kellybliss48@gmail.com">kellybliss48@gmail.com</a>
+              <span>,</span>
+              <a href="mailto:kellybliss48@gmail.com"
+                >support@emmystiches.com</a
+              >
+            </div>
+
+            <h2 class="join">join our team</h2>
+            <p>
+              Are you passionate about the art of tailoring and looking for
+              career opportunities with Emmystitches? We'd love to hear from
+              you!
+            </p>
+            <p>
+              For employment inquiries and potential opportunities at
+              Emmystitches, please reach out to us at:
+              <a href="mailto:kellybliss48@gmail.com">kellybliss48@gmail.com</a>
+            </p>
+            <p>
+              We welcome talented individuals who share our dedication to
+              craftsmanship and creativity. Join us on our journey to redefine
+              Nigerian fashion one stitch at a time.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-page-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.9296210096895!2d7.038094974473219!3d4.782091940947644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cd86abeac3bb%3A0x6e3914fa412f2442!2s172%20Abuloma%20Rd%2C%20Abuloma%2C%20500101%2C%20Rivers!5e0!3m2!1sen!2sng!4v1715938485055!5m2!1sen!2sng"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <!-- end of contact page -->
+
+    <!-- footer -->
+    <footer class="footer-section">
+      <div class="footer-section-wrapper">
+        <div class="footer-about">
+          <a href="./index.html"
+            ><img src="./asset/logo-2-footer.jpeg" alt="emmystiches logo"
+          /></a>
+
+          <p>
+            Celebrating craftsmanship and elegance, Emmystiches is your premier
+            destination for bespoke tailoring. With a dedication to quality and
+            an eye for detail, we craft garments that embody sophistication and
+            style.
+          </p>
+        </div>
+        <div class="footer-services">
+          <h4>Services:</h4>
+          <ul class="footer-services-list">
+            <li><a href="./services.html">custom accessories</a></li>
+            <li><a href="./services.html">custom tailoring</a></li>
+            <li><a href="./services.html">ready-made</a></li>
+            <li><a href="./services.html">alteration and restoration</a></li>
+          </ul>
+        </div>
+        <div class="footer-quick-links">
+          <h4>Quick Links</h4>
+          <ul class="footer-quick-links-list">
+            <li class="list-items"><a href="./index.html">Home</a></li>
+            <li class="list-items"><a href="./about.html">About</a></li>
+            <li class="list-items"><a href="./services.html">Services</a></li>
+            <li class="list-items"><a href="./gallery.html">Gallery</a></li>
+            <li class="list-items"><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-subscribe">
+          <h4>Join Us:</h4>
+          <p>
+            Sign up for exclusive offers, original stories, events and more.
+          </p>
+          <div class="footer-subscribe-input-btn">
+            <input
+              class="footer-email"
+              type="email"
+              name="email"
+              placeholder="Your email*"
+            />
+            <button type="submit" class="footer-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+            </button>
+          </div>
+          <div class="sm">
+            <a
+              href="https://www.instagram.com/emmy_stitchez?igsh=bGczcHBzOWtuZ3hj"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+
+            <a
+              href="https://www.facebook.com/profile.php?id=61550534460975&mibextid=ZbWKwL"
+              target="_blank"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+
+            <a
+              href="https://x.com/Emeka_lifestlye?t=wAaNvagzMVr7wgYIhXf2Og&s=09"
+              target="_blank"
+              ><i class="fa-brands fa-square-x-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+  </body>
+</html>
